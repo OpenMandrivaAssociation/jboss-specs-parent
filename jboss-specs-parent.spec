@@ -4,9 +4,9 @@
 
 Name:             jboss-specs-parent
 Version:          1.0.0
-Release:          0.7%{namedreltag}.0%{?dist}
+Release:          0.11%{namedreltag}.1
 Summary:          JBoss Specification API Parent POM
-
+Group:            Development/Java
 # The license is not included because it's not a part of this tag. License file
 # was pushed to trunk and no new tag will be created for this change.
 # http://anonsvn.jboss.org/repos/jbossas/projects/specs/trunk/jboss-specs-parent/LICENSE-2.0.txt
@@ -40,9 +40,7 @@ install -pm 644 pom.xml $RPM_BUILD_ROOT%{_mavenpomdir}/JPP.jboss-%{name}.pom
 
 %add_maven_depmap JPP.jboss-%{name}.pom
 
-%files
-%{_mavenpomdir}/*
-%{_mavendepmapfragdir}/*
+%files -f .mfiles
 
 %changelog
 * Sat Aug 03 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.0.0-0.7.Beta2
