@@ -11,7 +11,7 @@ Group:            Development/Java
 # was pushed to trunk and no new tag will be created for this change.
 # http://anonsvn.jboss.org/repos/jbossas/projects/specs/trunk/jboss-specs-parent/LICENSE-2.0.txt
 License:          ASL 2.0
-Url:              http://www.jboss.org/
+Url:              https://www.jboss.org/
 
 # svn export http://anonsvn.jboss.org/repos/jbossas/projects/specs/tags/jboss-specs-parent-1.0.0.Beta2/
 # tar czf jboss-specs-parent-1.0.0.Beta2-src-svn.tar.gz jboss-specs-parent-1.0.0.Beta2
